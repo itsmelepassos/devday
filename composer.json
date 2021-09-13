@@ -1,25 +1,28 @@
 {
-    "name": "euleandropassos/devday",
-    "description": "Feliz dia do(a) programador(a)!",
-    "minimum-stability": "stable",
-    "authors": [
-        {
-          "name": "Leandro Passos",
-          "email": "moonbaseag@gmail.com",
-          "role": "Developer"
-        }
-      ],
-      "config": {
-        "vendor-dir": "vendor"
-      },
-      "autoload": {
-        "psr-4": {
-          "App\\": "app/"
-        }
-      },
-      "require": {
-        "php": "^7.4|^8.0",
-        "ext-pdo": "^7.4|^8.0",
-        "twbs/bootstrap": "^5.1"
-      }
+  "name": "euleandropassos/devday",
+  "description": "Feliz dia do(a) programador(a)!",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Leandro Passos",
+      "email": "moonbaseag@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Helpers/DevDay.php"
+    ]
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-pdo": "^7.4|^8.0",
+    "twbs/bootstrap": "^5.1"
+  }
 }
